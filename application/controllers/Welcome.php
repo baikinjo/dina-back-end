@@ -13,7 +13,7 @@ class Welcome extends Application {
      */
     function index()
     {
-        $this->load->helper('formfields');
+
         $this->data['title'] = 'Menu (Server)';
         $this->data['pagebody'] = 'welcome_message';
         $this->render();
